@@ -81,3 +81,35 @@ body {
 .luxury__btn {
     color: var(--very-dark-cyan);
 }
+
+/* Media Queries - Desktop Displays */
+@media only screen and (min-width: 1024px) {
+    body {
+        max-width: 1440px;
+    }
+    .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        max-width: 960px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .sedans {
+        border-radius: 8px 0 0 8px;
+    }
+    .luxury {
+        border-radius: 0 8px 8px 0;
+    }
+    .card__title {
+        font-size: 30px;
+    }
+    .card__description {
+        width: 210px;
+        margin-bottom: 5rem;
+    }
+}
+
+/* Media Queries - Tablet Display */
+@media only screen and (min-width: 480px) {}
