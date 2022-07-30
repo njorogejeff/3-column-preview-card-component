@@ -48,6 +48,9 @@ body {
 .card__section {
     padding: 2rem;
 }
+.card__icon svg{
+    display: block;
+}
 .card__icon,
 .card__title,
 .card__description {
@@ -68,9 +71,14 @@ body {
     font-weight: 400;
     padding: .8rem 1.8rem;
     background-color: var(--light-gray);
-    border: none;
+    border: 2.5px solid var(--light-gray);
     border-radius: 25px;
     margin-bottom: 1rem;
+}
+.card__btn:hover {
+    background-color: transparent;
+    color: var(--light-gray);
+    cursor: pointer;
 }
 .sedans__btn {
     color: var(--bright-orange);
@@ -83,7 +91,7 @@ body {
 }
 
 /* Media Queries - Desktop Displays */
-@media only screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
     body {
         max-width: 1440px;
     }
@@ -112,4 +120,15 @@ body {
 }
 
 /* Media Queries - Tablet Display */
-@media only screen and (min-width: 480px) {}
+/* @media screen and (min-width: 480px) {
+    body {
+        max-width: 1024px;
+    }
+    .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        max-width: 
+    }
+} */
