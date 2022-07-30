@@ -91,7 +91,7 @@ body {
 }
 
 /* Media Queries - Desktop Displays */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
     body {
         max-width: 1440px;
     }
@@ -119,16 +119,6 @@ body {
     }
 }
 
+/* TODO Media Queries for Medium Display Screens - Tablets */
 /* Media Queries - Tablet Display */
-/* @media screen and (min-width: 480px) {
-    body {
-        max-width: 1024px;
-    }
-    .card {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        max-width: 
-    }
-} */
+@media screen and (min-width: 480px) {}
